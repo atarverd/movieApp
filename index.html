@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./media/logo.png" type="image/x-icon">
+    <title>Nayenq</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body class="scrollbar">
+        <header>
+        <nav>
+            <div class="logo">
+                <img src="./media/logo.png" alt="">
+                <h1>AYENQ</h1>
+            </div>
+            <div class="inputDiv">
+                <input type="text" placeholder="search" class="searchInpt" >
+                <button class="favorites">Favorites</button>
+            </div>
+        </nav>
+        </header>
+    <div class="content">
+       <div class="cardDiv">
+       </div>
+       <div class="modal scrollbar" hidden>
+           <img src="./media/close.png" class='close'>
+           <br>
+            <div class="favDiv">
+            </div>
+       </div>
+    </div>
+    <script type="module" src="./data.js"></script>
+    <script  type='module' src="./index.js"></script>
+</body>
+</html>

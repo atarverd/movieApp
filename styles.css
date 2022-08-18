@@ -1,0 +1,156 @@
+
+body{
+    /* display: flex; */
+    justify-content: center;
+    background-color: #141414;
+    color:white;
+    margin: 0 auto;
+}
+.scrollbar::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+.scrollbar::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 20px;
+  }
+  
+.scorlbar::-webkit-scrollbar-track {
+    background: #ddd;
+    border-radius: 20px;
+  }
+header{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #454451;
+    align-items: center;
+    border-radius: 12px;
+    color: #b0afaf;
+    margin: 1%;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    color: red;
+}
+nav img{
+    width: 64px;
+    height: 64px;
+}
+nav .inputDiv{
+    width: 35%;
+}
+nav  input {
+    font-size: 20px;
+    width: 65%;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+nav button{
+    font-size: 24px;
+    color:red;
+    background:none;
+    padding: 4px;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Anton', sans-serif;
+    cursor: pointer;
+}
+.content{
+    /* width: ; */
+    display: flex;
+    justify-content: center;
+}
+.cardDiv{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    margin-top: .5%;
+    padding: 3%;
+}
+.card{
+    width: 255px;
+    padding: 10px;
+    border-radius: 12px;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 0.5%;
+    background-color: #454451;
+    transition: .2s all;
+    position: relative;
+    font-size: 24px;
+}
+.card img{
+    max-width: 182px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.card:hover{
+    background-color: #2d2c3d;
+    
+}
+.favImg{
+    float: right;
+    position: absolute;
+    right: 28px;
+    top: 15px;
+}
+.modal{
+    height: 60%;
+    width: 60%;
+    background-color: #23252b;
+    position: fixed;
+    border-radius: 22px;
+    opacity: 98%;
+    padding: 5%;
+    overflow-y: scroll;
+
+    
+}
+.modal img{
+    float: right;
+    
+}
+.close{
+    float: right;
+    position: absolute;
+    right: 28px;
+    top: 15px;
+    cursor: pointer;
+}
+.favCard{
+    display: flex;
+    padding: 3%;
+    background-color: #4f5863;
+    border-radius: 16px;
+    height: 30%;
+    margin-bottom: 2%;
+    font-size: 16px;
+}
+.favCard button{
+    background:none;
+    border: none;
+    cursor: pointer;
+}
+.favCard div{
+    margin-left: 3%;
+    word-wrap: break-word;
+    
+    
+}
+.favCard img{
+    width: 15%;
+}
